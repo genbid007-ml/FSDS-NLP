@@ -35,7 +35,6 @@ dvc init
 
 ```bash
 git init
-git remote add origin https://github.com/genbid007-ml/FSDS-NLP.git
 git status
 git add .
 git commit -m "first commit after setup and stage 00 completed"

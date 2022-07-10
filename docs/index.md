@@ -40,6 +40,9 @@ git status
 git add .
 git commit -m "first commit after setup and stage 00 completed"
 git status
+git config --global user.email "genbid007-ml@gmail.com"
+git config --global user.name "/genbid007-ml"
+
 git log
 git push origin master
 

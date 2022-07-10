@@ -1,13 +1,13 @@
 # dvc-project-template
-DVC project template
+FSDS MLP Project
 
 ## STEPS -
 
-### STEP 01- Create a repository by using template repository
+### STEP 01- Create a repository by using template repository DVC MKDocs template
 
-### STEP 02- Clone the new repository
+### STEP 02- Clone the new repository into pycharm
 
-### STEP 03- Create a conda environment after opening the repository in VSCODE
+### STEP 03- Create a conda environment after opening the repository in pycharm
 
 ```bash
 conda create --prefix ./env python=3.7 -y

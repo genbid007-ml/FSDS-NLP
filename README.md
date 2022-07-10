@@ -1,5 +1,5 @@
-# dvc-project-template
-FSDS MLP Project
+# FSDS MLP Project
+It is a NLP based project configured DVC and MK docs from template repo DVC MKdocs template
 
 ## STEPS -
 

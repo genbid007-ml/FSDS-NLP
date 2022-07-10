@@ -5,12 +5,10 @@ from tqdm import tqdm
 import logging
 from src.utils.common import read_yaml, create_directories
 import random
-
-
-STAGE = "STAGE_NAME" ## <<< change stage name 
+STAGE = "Basic template" ## <<< change stage name
 
 logging.basicConfig(
-    filename=os.path.join("logs", 'running_logs.log'), 
+    filename=os.path.join("D:\\00_Project\\git_projects", 'running_logs.log'),
     level=logging.INFO, 
     format="[%(asctime)s: %(levelname)s: %(module)s]: %(message)s",
     filemode="a"
@@ -26,8 +24,8 @@ def main(config_path, params_path):
 
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
-    args.add_argument("--config", "-c", default="configs/config.yaml")
-    args.add_argument("--params", "-p", default="params.yaml")
+    args.add_argument("--config", "-c", default="D:\\00_Project\\git_projects\\configs\\config.yaml")
+    args.add_argument("--params", "-p", default="D:\\00_Project\\git_projects\\params.yaml")
     parsed_args = args.parse_args()
 
     try:

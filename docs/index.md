@@ -32,3 +32,17 @@ dvc init
 ```
 
 ### STEP 06- commit and push the changes to the remote repository
+
+```bash
+git init
+git remote add origin https://github.com/genbid007-ml/FSDS-NLP.git
+git status
+git add .
+git commit -m "first commit after setup and stage 00 completed"
+git status
+git log
+git push origin master
+
+
+
+```

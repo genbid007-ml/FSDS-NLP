@@ -1,0 +1,20 @@
+[2022-07-11 17:28:10,149: INFO: stage_01_prepare_data]: 
+********************
+[2022-07-11 17:28:10,149: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data started <<<<<
+[2022-07-11 17:28:10,149: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-07-11 17:28:10,149: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-07-11 17:28:10,149: ERROR: stage_01_prepare_data]: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\00_Project\git_projects\src\stage_01_prepare_data.py", line 56, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "D:\00_Project\git_projects\src\stage_01_prepare_data.py", line 28, in main
+    split = params["prepare"]["split"] # split ratio
+TypeError: 'NoneType' object is not subscriptable
+[2022-07-11 17:29:08,094: INFO: stage_01_prepare_data]: 
+********************
+[2022-07-11 17:29:08,094: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data started <<<<<
+[2022-07-11 17:29:08,094: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-07-11 17:29:08,094: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-07-11 17:29:08,094: INFO: common]: created directory at: artifacts\prepared
+[2022-07-11 17:29:10,945: INFO: stage_01_prepare_data]: >>>>> stage Prepare_data completed!<<<<<
+

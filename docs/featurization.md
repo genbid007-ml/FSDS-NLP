@@ -11,3 +11,6 @@ X = vectorizer.fit_transform(corpus)
 print(X.toarray())
 print(vectorizer.get_feature_names_out())
 ```
+
+We get the data extracted from the data.xml as split into two sets train and test. Header are PID, Tag(Python) and Title + Body.
+Then we convert it into dataframe and apply feature extraction from this above code showm using Sklearn Feature extraction. 

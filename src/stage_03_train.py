@@ -56,6 +56,8 @@ def main(config_path, params_path):
     )
     model.fit(X, labels)
 
+
+
     joblib.dump(model, model_path)
     logging.info(f"saved our model at: {model_path}")
     
